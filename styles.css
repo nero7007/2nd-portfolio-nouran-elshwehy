@@ -10,7 +10,7 @@ html {
   font-size: 16px;
 }
 
-/* Added CSS custom properties with HSL color values */
+/* root */
 :root {
   /* Primary Colors */
   --color-primary: 214 88% 51%;
