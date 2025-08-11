@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nouran Elshwehy - React Developer Portfolio | Frontend Developer Egypt</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Professional portfolio of Nouran Elshwehy, a passionate junior React developer with team leadership experience and 2+ years in frontend development. Based in Damietta, Egypt.">
+    <meta name="keywords"
+        content="React Developer, Frontend Developer, JavaScript, TypeScript, HTML5, CSS3, Team Leader, Egypt, Damietta, Web Developer, UI/UX">
+    <meta name="author" content="Nouran Elshwehy">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Nouran Elshwehy - React Developer Portfolio">
+    <meta property="og:description"
+        content="Professional portfolio of Nouran Elshwehy, a passionate junior React developer with team leadership experience and 2+ years in frontend development.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nouran-elshwehy.com">
+    <meta property="og:image" content="https://nouran-elshwehy.com/og-image.jpg">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nouran Elshwehy - React Developer Portfolio">
+    <meta name="twitter:description"
+        content="Professional portfolio of Nouran Elshwehy, a passionate junior React developer with team leadership experience.">
+    <meta name="twitter:image" content="https://nouran-elshwehy.com/twitter-image.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://nouran-elshwehy.com">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Open+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Navigation -->
+    <header class="header" role="banner">
+        <nav class="nav-container" role="navigation" aria-label="Main navigation">
+            <div class="nav-brand">
+                <span class="brand-text">Nouran Elshwehy</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main role="main">
+        <!-- Hero Section -->
+        <section class="hero-section" role="banner">
+            <div class="container">
+                <div class="hero-content animate-fade-in-up">
+                    <div class="hero-avatar">
+                        <div class="avatar-circle">
+                            <span class="avatar-initials" aria-hidden="true">NE</span>
+                        </div>
+                    </div>
+                    <h1 class="hero-title">Hi, I'm Nouran Elshwehy</h1>
+                    <p class="hero-subtitle">Passionate React Developer with Leadership Experience</p>
+                    <div class="hero-location">
+                        <svg class="location-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <span>Damietta, Egypt</span>
+                    </div>
+
+                    <p class="hero-description">
+                        With 2+ years of programming experience and a strong foundation in React.js, JavaScript, and
+                        TypeScript, I
+                        thrive on challenges, organization, and continuous improvement. As a team leader at Digital
+                        Egypt Pioneers
+                        Initiative, I foster collaboration and drive results.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Let's Work Together</a>
+                        <a href="#experience" class="btn btn-outline">View My Experience</a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/nouran-elshwehy-6a83a22b1/" target="_blank"
+                            rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/nero7007" target="_blank" rel="noopener noreferrer"
+                            class="social-link" aria-label="GitHub Profile">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="mailto:nouranelshwehy663@gmail.com" class="social-link" aria-label="Email Contact">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section" role="region" aria-labelledby="about-heading">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="about-heading" class="section-title">About Me</h2>
+                    <p class="section-subtitle">
+                        Dedicated to building exceptional web experiences through continuous learning and collaboration
+                    </p>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3 class="about-subtitle">My Journey</h3>
+                        <p>
+                            As an ENTJ, I thrive on challenges, organization, and continuous improvement—qualities that
+                            fuel my
+                            ambition to excel in tech. With 2 years of experience in programming, I've built a solid
+                            foundation in
+                            HTML, CSS, JavaScript, and React.
+                        </p>
+                        <p>
+                            Beyond coding, I love collaborating with others. As a team leader in Egypt Digital Pioneers
+                            Initiative
+                            (Round 3), I worked alongside talented peers to foster teamwork and achieve shared goals.
+                        </p>
+                        <p>
+                            I actively participate in the developer community and attend tech events to learn from more
+                            experienced
+                            developers, always seeking opportunities to grow and contribute.
+                        </p>
+                    </div>
+
+                    <div class="about-cards">
+                        <div class="about-card">
+                            <h4>Short-term Goal</h4>
+                            <p>Secure my first position as a junior React developer</p>
+                        </div>
+                        <div class="about-card">
+                            <h4>Long-term Vision</h4>
+                            <p>Grow into a mid-level developer within the next two years</p>
+                        </div>
+                        <div class="about-card">
+                            <h4>Education</h4>
+                            <p>Bachelor's in Management Information Systems</p>
+                            <small>Ras El Bar High Institute (2019-2022)</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="22,12 18,12 15,21 9,3 6,12 2,12"></polyline>
+                            </svg>
+                        </div>
+                        <h4>Continuous Learning</h4>
+                        <p>Always staying current with the latest frontend development trends and technologies</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <h4>Effective Teamwork</h4>
+                        <p>Proven ability to collaborate and lead teams to achieve shared goals</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12,6 12,12 16,14"></polyline>
+                            </svg>
+                        </div>
+                        <h4>Strong Foundation</h4>
+                        <p>Belief that solid fundamentals are the key to future success in development</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M6 9l6 6 6-6"></path>
+                            </svg>
+                        </div>
+                        <h4>Excellence Driven</h4>
+                        <p>ENTJ personality with natural leadership and commitment to high-quality results</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section" role="region" aria-labelledby="skills-heading">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="skills-heading" class="section-title">Skills & Expertise</h2>
+                    <p class="section-subtitle">
+                        A comprehensive skill set built through hands-on experience and continuous learning
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend Technologies</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">React.js</span>
+                                <span class="skill-endorsements">7 endorsements</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">TypeScript</span>
+                                <span class="skill-endorsements">7 endorsements</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-endorsements">7 endorsements</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-endorsements">7 endorsements</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">CSS3</span>
+                                <span class="skill-endorsements">8 endorsements</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Bootstrap</span>
+                                <span class="skill-endorsements">6 endorsements</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Development Tools</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Git</span>
+                                <span class="skill-endorsements">8 endorsements</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">GitHub</span>
+                                <span class="skill-endorsements">7 endorsements</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">D3.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Agile Development</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Leadership & Soft Skills</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Team Leadership</span>
+                                <span class="skill-endorsements">2 endorsements</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Professionalism</span>
+                                <span class="skill-endorsements">7 endorsements</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Emotional Intelligence</span>
+                                <span class="skill-endorsements">7 endorsements</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Adaptability</span>
+                                <span class="skill-endorsements">5 endorsements</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Active Listening</span>
+                                <span class="skill-endorsements">5 endorsements</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Self-Discipline</span>
+                                <span class="skill-endorsements">5 endorsements</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Core Competencies</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Attention to Detail</span>
+                                <span class="skill-endorsements">8 endorsements</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Lifelong Learning</span>
+                                <span class="skill-endorsements">5 endorsements</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Task Organization</span>
+                                <span class="skill-endorsements">6 endorsements</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Problem Solving</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="endorsement-note">
+                    <span>Endorsed by colleagues at Digital Egypt Pioneers Initiative - DEPI</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section" role="region" aria-labelledby="experience-heading">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="experience-heading" class="section-title">Professional Experience</h2>
+                    <p class="section-subtitle">
+                        Building expertise through hands-on development and leadership roles
+                    </p>
+                </div>
+
+                <div class="experience-timeline">
+                    <article class="experience-item">
+                        <div class="experience-header">
+                            <div class="experience-title-group">
+                                <h3>Team Lead & Junior React Developer</h3>
+                                <div class="experience-company">
+                                    <span>Digital Egypt Pioneers Initiative - DEPI</span>
+                                    <span class="experience-type">Apprenticeship</span>
+                                </div>
+                            </div>
+                            <div class="experience-meta">
+                                <div class="experience-period">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                    <span>July 2025 - Present</span>
+                                </div>
+                                <div class="experience-location">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                    <span>Egypt</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="experience-achievements">
+                            <li>Develop and implement user interfaces using React, TypeScript, and JavaScript for web
+                                applications serving 1,000+ users</li>
+                            <li>Collaborate with UI/UX designers to translate designs into functional user interfaces
+                            </li>
+                            <li>Implement data visualizations using D3.js library, enhancing user experience by 30%</li>
+                            <li>Led cross-functional team of 8 developers with punctual, responsible approach</li>
+                            <li>Improved team delivery efficiency by 25% through agile development practices</li>
+                            <li>Write clean, maintainable code following software engineering best practices</li>
+                        </ul>
+
+                        <div class="experience-skills">
+                            <span class="skill-tag">React.js</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">D3.js</span>
+                            <span class="skill-tag">Team Leadership</span>
+                            <span class="skill-tag">Agile Development</span>
+                        </div>
+                    </article>
+
+                    <article class="experience-item">
+                        <div class="experience-header">
+                            <div class="experience-title-group">
+                                <h3>Frontend Developer</h3>
+                                <div class="experience-company">
+                                    <span>Freelance</span>
+                                    <span class="experience-type">Contract</span>
+                                </div>
+                            </div>
+                            <div class="experience-meta">
+                                <div class="experience-period">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                    <span>January 2023 - June 2025</span>
+                                </div>
+                                <div class="experience-location">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                    <span>Remote</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="experience-achievements">
+                            <li>Built 5+ responsive web applications using React.js, HTML5, CSS3, and modern JavaScript
+                                frameworks</li>
+                            <li>Integrated frontend components with server-side APIs, improving application performance
+                            </li>
+                            <li>Delivered projects on time with 100% client satisfaction rate</li>
+                            <li>Maintained professional conduct and effective communication with clients</li>
+                            <li>Stayed up-to-date with latest frontend development trends and technologies</li>
+                        </ul>
+
+                        <div class="experience-skills">
+                            <span class="skill-tag">React.js</span>
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">API Integration</span>
+                            <span class="skill-tag">Client Communication</span>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <h4>Team Leadership</h4>
+                        <p>Led cross-functional team of 8 developers</p>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="22,12 18,12 15,21 9,3 6,12 2,12"></polyline>
+                            </svg>
+                        </div>
+                        <h4>Performance Impact</h4>
+                        <p>Enhanced user experience by 30% with D3.js visualizations</p>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                        </div>
+                        <h4>Project Success</h4>
+                        <p>100% project delivery success rate</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section" role="region" aria-labelledby="contact-heading">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="contact-heading" class="section-title">Let's Connect</h2>
+                    <p class="section-subtitle">
+                        I'm always open to new opportunities and collaborations. Let's discuss how I can contribute to
+                        your team!
+                    </p>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-info-card">
+                        <h3>Get In Touch</h3>
+                        <div class="contact-info-list">
+                            <div class="contact-info-item">
+                                <div class="contact-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="contact-label">Email</p>
+                                    <a href="mailto:nouranelshwehy663@gmail.com"
+                                        class="contact-value">nouranelshwehy663@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-info-item">
+                                <div class="contact-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="contact-label">Phone</p>
+                                    <a href="tel:+201003940903" class="contact-value">+20-100-394-0903</a>
+                                </div>
+                            </div>
+                            <div class="contact-info-item">
+                                <div class="contact-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="contact-label">Location</p>
+                                    <p class="contact-value">Damietta, Egypt</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="looking-for-card">
+                        <h3>What I'm Looking For</h3>
+                        <div class="looking-for-list">
+                            <div class="looking-for-item">
+                                <h4>Junior React Developer Position</h4>
+                                <p>Seeking opportunities to grow and contribute in a supportive learning environment</p>
+                            </div>
+                            <div class="looking-for-item">
+                                <h4>Team Collaboration</h4>
+                                <p>Excited to work with experienced developers and contribute to project success</p>
+                            </div>
+                            <div class="looking-for-item">
+                                <h4>Continuous Learning</h4>
+                                <p>Companies that invest in developer growth and provide learning opportunities</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-actions">
+                    <div class="contact-buttons">
+                        <a href="mailto:nouranelshwehy663@gmail.com" class="btn btn-primary">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            Send Email
+                        </a>
+                        <a href="NOURAN-MUSAAD-ELSHWEHY-CV.pdf" class="btn btn-outline"
+                            download="Nouran_Elshwehy_Resume.pdf">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7,10 12,15 17,10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            Download Resume
+                        </a>
+                    </div>
+
+                    <div class="contact-social-links">
+                        <a href="https://www.linkedin.com/in/nouran-elshwehy-6a83a22b1/" target="_blank"
+                            rel="noopener noreferrer" class="contact-social-link" aria-label="LinkedIn Profile">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/nero7007" target="_blank" rel="noopener noreferrer"
+                            class="contact-social-link" aria-label="GitHub Profile">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Nouran Elshwehy. All rights reserved.</p>
+                    <p>Built with passion for frontend development</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
